@@ -2,35 +2,28 @@ import React from 'react';
 
 const About: React.FC = () => {
   return (
-    <div className="min-h-screen p-8">
+    <div className=" p-16">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-4xl font-bold mb-6">About Us</h1>
-        
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Who We Are</h2>
-          <p className="text-gray-700 mb-4">
-            We are a dedicated team passionate about delivering exceptional web solutions. 
-            Our mission is to create innovative and user-friendly experiences that make a difference.
-          </p>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Our Vision</h2>
-          <p className="text-gray-700 mb-4">
-            To be at the forefront of technological innovation while maintaining our commitment 
-            to quality and customer satisfaction.
-          </p>
-        </section>
-
         <section>
-          <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
-          <p className="text-gray-700">
-            Have questions? Feel free to reach out to us at{' '}
-            <a href="mailto:contact@example.com" className="text-blue-600 hover:underline">
-              contact@example.com
-            </a>
-          </p>
+            <h2 className="text-2xl font-semibold mb-4">ที่มาของโครงการ</h2>
+            <p className="text-gray-700 mb-4">
+            ในปัจจุบันผู้ใช้บริการที่ต้องการหาช่างหรือแม่บ้านมาทำงานในบ้านมักมองหาความสะดวกสบาย
+            จากผู้ให้บริการที่น่าเชื่อถือ และการเข้าถึงบริการที่ง่ายและรวดเร็ว โดยเฉพาะในยุคปัจจุบันที่ผู้คน
+            ให้ความสำคัญกับการใช้ชีวิตที่สะดวกและประหยัดเวลา
+            </p>
+            <h2 className="text-2xl font-semibold mb-4">ปัญหาที่พบ</h2>
+            <p className="text-gray-700 mb-4">
+            ผู้คนมักพบความยากลำบากในการหาช่องทางติดต่อช่างเมื่อเกิดเหตุการณ์ฉุกเฉิน 
+            การกำหนดราคาที่ไม่ชัดเจน และการขาดการยืนยันตัวตนของผู้ให้บริการ 
+            ซึ่งทำให้เกิดข้อสงสัยเกี่ยวกับความน่าเชื่อถือ
+            </p>
+            <h2 className="text-2xl font-semibold mb-4">แนวทางการแก้ปัญหา</h2>
+            <p className="text-gray-700">
+            เราได้พัฒนาแอปพลิเคชันที่รวบรวมข้อมูลของช่างและแม่บ้าน พร้อมระบบรีวิว การให้คะแนน 
+            ระบบจองคิว และการยืนยันตัวตนด้วยการสแกนใบหน้า เพื่อสร้างความมั่นใจให้กับผู้ใช้บริการ
+            </p>
         </section>
+        
       </div>
     </div>
   );

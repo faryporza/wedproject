@@ -11,3 +11,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* Add smooth transition for expandable sections */
+.transition-height {
+  transition: height 0.3s ease-in-out;
+}
+
+/* Gradient fade for collapsed text */
+.h-20 {
+  position: relative;
+}
+
+.h-20::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: linear-gradient(transparent, white);
+  pointer-events: none;
+}
