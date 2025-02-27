@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Home: React.FC = () => {
     return (
@@ -16,7 +15,7 @@ const Home: React.FC = () => {
                     Mobile Application
                 </p>
             </div>
-            <div className="relative w-full flex justify-center absolute bottom-0 mb-4">
+            <div className="absolute bottom-8 w-full flex justify-center">
                 <svg className="w-6 h-6 animate-bounce" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
                 </svg>
