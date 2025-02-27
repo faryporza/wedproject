@@ -1,11 +1,16 @@
 {
-  "name": "react-vite-tailwind",
-  "version": "1.0.0",
+  "name": "wedproject",
+  "version": "0.0.0",
   "private": true,
+  "homepage": "https://tanakitchuchoed.github.io/wedproject/",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "serve": "vite preview"
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
