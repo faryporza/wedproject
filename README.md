@@ -1,52 +1,34 @@
-# react-vite-app
+# Wed Project
 
-This project is a single-page application built using React and Vite. It serves as a template for creating modern web applications with a fast development experience.
+A simple React application built with Vite.
+
+## Repository
+
+This project is hosted on GitHub:
+[https://github.com/faryporza/wedproject](https://github.com/faryporza/wedproject)
 
 ## Getting Started
 
-To get started with this project, follow the instructions below.
-
-### Prerequisites
-
-Make sure you have the following installed on your machine:
-
-- Node.js (version 12 or later)
-- npm (comes with Node.js)
-
-### Installation
-
 1. Clone the repository:
+```bash
+git clone https://github.com/faryporza/wedproject.git
+```
 
-   ```bash
-   git clone <repository-url>
-   cd react-vite-app
-   ```
+2. Install dependencies:
+```bash
+npm install
+```
 
-2. Install the dependencies:
-
-   ```bash
-   npm install
-   ```
-
-### Running the Application
-
-To start the development server, run:
-
+3. Run the development server:
 ```bash
 npm run dev
 ```
 
-This will start the application and you can view it in your browser at `http://localhost:3000`.
+## Available Scripts
 
-### Building for Production
-
-To create a production build of the application, run:
-
-```bash
-npm run build
-```
-
-The built files will be generated in the `dist` directory.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
 
 ### Contributing
 
